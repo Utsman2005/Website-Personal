@@ -1,0 +1,81 @@
+*, html{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+.container-navbar {
+	background-color: cornflowerblue;
+	width: 100%;
+	height: 7vh;
+}
+
+.ul-navbar{
+font-family: sans-serif;
+display: flex;
+height: 50px;
+justify-content: center;
+align-items: center;
+text-align: right;
+}
+
+.li-navbar{
+	list-style-type: none;
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.li-navbar:hover {
+	background-color: royalblue;
+	transition: .5s ease-in-out;
+	border-radius: 75px;
+}
+
+.container-content{
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+
+.a-content {
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 85px;
+	box-shadow:box-shadow: 12px 7px 18px 4px rgba(0,0,0,0.8);
+-webkit-box-shadow: 12px 7px 18px 4px rgba(0,0,0,0.8);
+-moz-box-shadow: 12px 7px 18px 4px rgba(0,0,0,0.8);
+}
+
+.container-footer{
+height: 10vh;
+background-color: navy;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.h1-footer{
+font-size: 40px;
+color: white;
+}
+
+.a-navbar{
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
